@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        dockerTool 'my-docker' // This matches the name you gave it in Tools
-    }
-
     stages {
 
         stage('Clone Code') {
